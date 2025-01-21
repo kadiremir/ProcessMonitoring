@@ -1,8 +1,8 @@
-# Define thresholds
-$CPUThreshold = 10  # CPU usage in percentage
-$MemoryThreshold = 25  # Memory usage in percentage (Working Set)
+# Define the maximum usages you would like to track (in percentage)
+$CPUThreshold = 75  # CPU usage in percentage
+$MemoryThreshold = 80  # Memory usage in percentage
 
-# Define log file location
+# Define the log file location where you will track the logs in a single csv file
 $LogFilePath = "C:\ProcessMonitoring\ProcessLog.csv"
 
 # Create log directory if it doesn't exist
